@@ -3,12 +3,13 @@ import {RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS} from 'angular2/router'
 import {CliRouteConfig} from './route-config';
 
 import {AlbumsPage} from './albums-page/albums-page';
+import {TracksPage} from './tracks-page/tracks-page';
 
 @Component({
   selector: 'music-app',
   providers: [ROUTER_PROVIDERS],
   templateUrl: 'app/music.html',
-  directives: [ROUTER_DIRECTIVES, AlbumsPage],
+  directives: [ROUTER_DIRECTIVES],
   pipes: []
 })
 @RouteConfig([
