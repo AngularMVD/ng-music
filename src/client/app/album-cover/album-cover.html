@@ -1,3 +1,7 @@
 <div class="media">
-  <img [alt]="album.name" class="album" [src]="album.image" (click)="selectAlbum()">
+  <img
+  	[alt]="album.name"
+  	[src]="album.image"
+  	[routerLink]="['/TracksPage', {id: album.id}]"
+  	class="album">
 </div>
