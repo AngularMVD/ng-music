@@ -1,0 +1,69 @@
+CACHE MANIFEST
+# sw.bundle: ng-cli
+# sw.version: 074e707b124cebcd41a34eb25552fbf4fd84b53a
+# sw.file.hash: a1dc8eb862c9fd5890c6fff9f58134aa5740b91c
+/app.js
+# sw.file.hash: 217805be65f12bcf50de7c3bd1b67ac1a5c1e5b8
+/app.js.map
+# sw.file.hash: da39a3ee5e6b4b0d3255bfef95601890afd80709
+/app/album-cover/album-cover.css
+# sw.file.hash: fd951a872fc72a31d6f4d13bb3f573232da6c230
+/app/album-cover/album-cover.html
+# sw.file.hash: 985433d83caac58785fcb401b079cc4c2a0bd4b2
+/app/album-cover/album-cover.js
+# sw.file.hash: 8c2fc72a67afc5ee36862b3637ede8939000d431
+/app/album-cover/album-cover.js.map
+# sw.file.hash: da39a3ee5e6b4b0d3255bfef95601890afd80709
+/app/albums-page/albums-page.css
+# sw.file.hash: 7705e4b730120897e0192ae5085db9fe6647de8d
+/app/albums-page/albums-page.html
+# sw.file.hash: 240a48f4e552ff6757c383cae7b4a4742a4f963b
+/app/albums-page/albums-page.js
+# sw.file.hash: ad025367a1a5e17ffcdcd834cabfa1653899b82f
+/app/albums-page/albums-page.js.map
+# sw.file.hash: 6477db2c123cd039cd59dfd27798d2a7c6d2cce9
+/app/albums-service/albums-service.js
+# sw.file.hash: 0f46d1a4231daa7e27ae3cb750185226999d691c
+/app/albums-service/albums-service.js.map
+# sw.file.hash: 2f7eec5861a00535c73bec5b081db31495e45329
+/app/music.html
+# sw.file.hash: 6c3a75e5ba00bb9b33d5f9ec31062259c28d337a
+/app/music.js
+# sw.file.hash: 3317f4b04b6f7addcc51c81869a4dbecd0fc5e58
+/app/music.js.map
+# sw.file.hash: 25c384aaa3e15e652caf24fb11218e3692c9c799
+/app/route-config.js
+# sw.file.hash: a76ea96f1c0a6d7bfcf67d81abab01e6d6b41838
+/app/route-config.js.map
+# sw.file.hash: da39a3ee5e6b4b0d3255bfef95601890afd80709
+/app/tracks-page/tracks-page.css
+# sw.file.hash: e73b7fbe699e9ae0a2d9b7b63e1ec5b6b04b2130
+/app/tracks-page/tracks-page.html
+# sw.file.hash: 5c32591cc894720e0f8b8a45b294232e2de36fe7
+/app/tracks-page/tracks-page.js
+# sw.file.hash: ae639e0452dd5b6e6c732b430a0bc8b9bd6f099f
+/app/tracks-page/tracks-page.js.map
+# sw.file.hash: 84161b857f5c547e3699ddfbffc6d8d737542e01
+/favicon.ico
+# sw.file.hash: e6c3428e264e4d4d54ca37bc3ede67b8924fe9ee
+/index.html
+# sw.file.hash: e5e036b749a151842a579c1f964e7e57e9abd09d
+/tsconfig.json
+# sw.file.hash: be771bd0a4170c04abff753212def2a2376a408e
+/vendor/angular2/bundles/angular2-polyfills.js
+# sw.file.hash: bf6570ef9f7655ac76c11d3383716a9c182b7229
+/vendor/angular2/bundles/angular2.dev.js
+# sw.file.hash: e161d053cf096f7e43daa9aafc58026972429e6c
+/vendor/angular2/bundles/http.dev.js
+# sw.file.hash: 90796944735dcf41318c43d57b5753e9affb56be
+/vendor/angular2/bundles/router.dev.js
+# sw.file.hash: ea0d5118949013b3cacdeda5f73c250cab615804
+/vendor/angular2/bundles/upgrade.dev.js
+# sw.file.hash: 2adbdc3a7b6d85ac53b76b52234f28b16c88c7b2
+/vendor/es6-shim/es6-shim.js
+# sw.file.hash: 736fe8675af5630486329adf5efe12ec7be449b1
+/vendor/rxjs/bundles/Rx.js
+# sw.file.hash: 064ab212cfd9e125474ae3bbb600c366b31e79cb
+/vendor/systemjs/dist/system-polyfills.js
+# sw.file.hash: 83128f4a4209eb7b16ad0bb729fda6939bc450fc
+/vendor/systemjs/dist/system.src.js

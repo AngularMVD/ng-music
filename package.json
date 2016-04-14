@@ -2,10 +2,11 @@
   "name": "music",
   "version": "0.0.0",
   "license": "MIT",
+  "main": "index.js",
   "angular-cli": {},
   "scripts": {
-    "start": "ng server",
-    "postinstall": "typings install --ambient",
+    "start": "node index.js",
+    "typings": "typings install --ambient",
     "lint": "tslint src/**/*.ts",
     "format": "clang-format -i -style=file --glob=src/**/*.ts",
     "pree2e": "webdriver-manager update",
@@ -15,7 +16,9 @@
   "dependencies": {
     "angular2": "2.0.0-beta.13",
     "es6-shim": "^0.35.0",
+    "express": "~4.9.x",
     "reflect-metadata": "0.1.2",
+    "request": "^2.71.0",
     "rxjs": "5.0.0-beta.2",
     "systemjs": "0.19.20",
     "zone.js": "^0.6.4"
@@ -36,5 +39,8 @@
     "tslint": "^3.6.0",
     "typescript": "^1.8.7",
     "typings": "^0.6.6"
+  },
+  "engines": {
+    "node": "0.12.2"
   }
 }

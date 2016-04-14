@@ -1,0 +1,23 @@
+<h1 class="main-header">ng-music</h1>
+<div class="local-nav">
+  <div class="navbar-fixed-wrapper">
+    <div class="navbar">
+      <ul class="nav">
+        <li class="active"><a>Albums</a></li>
+        <li><a>Charts</a></li>
+        <li><a>Discover</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section-divider genres-section">
+  <div class="playlist-label">
+    Pick an album
+  </div>
+</div>
+<div>
+  <div class="row fivecolumns">
+    <album-cover *ngFor="#album of albums" [album]="album"></album-cover>
+  </div>
+</div>
