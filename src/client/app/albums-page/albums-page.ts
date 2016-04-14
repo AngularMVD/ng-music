@@ -1,4 +1,5 @@
 import {Component} from 'angular2/core';
+import {NgFor} from 'angular2/common';
 import {HTTP_PROVIDERS, Http} from 'angular2/http';
 
 import {AlbumCover} from '../album-cover/album-cover';
@@ -8,7 +9,7 @@ import {AlbumCover} from '../album-cover/album-cover';
   templateUrl: 'app/albums-page/albums-page.html',
   styleUrls: ['app/albums-page/albums-page.css'],
   providers: [HTTP_PROVIDERS],
-  directives: [AlbumCover],
+  directives: [AlbumCover, NgFor],
   pipes: []
 })
 export class AlbumsPage {
