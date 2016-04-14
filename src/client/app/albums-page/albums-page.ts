@@ -15,12 +15,6 @@ import {AlbumCover} from '../album-cover/album-cover';
 export class AlbumsPage {
 	albums: any = [];
 
-  constructor(private http: Http) {
-		http
-				.get('/api/albums')
-				.subscribe(response => {
-					this.albums = response.json()['albums'];
-				})
-  }
+  constructor() {}
 
 }
