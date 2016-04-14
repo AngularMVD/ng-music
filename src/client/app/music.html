@@ -1,17 +1,27 @@
 <div id="main-nav">
-  <a class="logo"></a>
-  <ul id="nav-items">
-    <li><a class="spoticon-search-32 standard-menu-item"><span>Search</span></a></li>
-    <li><a class="spoticon-browse-32 standard-menu-item active"><span>Albums</span></a></li>
-    <li><a class="spoticon-radio-32 standard-menu-item"><span>Radio</span></a></li>
-  </ul>
+	<a class="logo"></a>
+	<ul id="nav-items">
+		<li>
+			<a class="spoticon-search-32 standard-menu-item">
+				<span>Search</span>
+			</a>
+		</li>
+		<li>
+			<a [routerLink]="['/AlbumsPage']" class="spoticon-browse-32 standard-menu-item active">
+				<span>Albums</span>
+			</a>
+		</li>
+		<li>
+			<a class="spoticon-radio-32 standard-menu-item">
+				<span>Radio</span>
+			</a>
+		</li>
+	</ul>
 </div>
 <div id="wrapper">
-  <div id="main">
-    <div class="container-fluid">
-
-      <router-outlet></router-outlet>
-
-    </div>
-  </div>
+	<div id="main">
+		<div class="container-fluid">
+			<router-outlet></router-outlet>
+		</div>
+	</div>
 </div>
