@@ -1,4 +1,4 @@
-import {Component} from 'angular2/core';
+import {Component, Input} from 'angular2/core';
 
 @Component({
   selector: 'album-cover',
@@ -6,22 +6,12 @@ import {Component} from 'angular2/core';
   styleUrls: ['app/album-cover/album-cover.css'],
   providers: [],
   directives: [],
-  pipes: []
+  pipes: [],
 })
 export class AlbumCover {
-	album: any;
-
-  constructor() {
-  	this.album = {
-			id: 1000,
-      artist: "Ramones",
-      name: "Ramones",
-      image: "http://ng-music.s3-sa-east-1.amazonaws.com/data/ramones-ramones.jpg",
-  	}
-  }
+	@Input() album: any;
 
   selectAlbum() {
 		alert("Album selected");
   }
-
 }
