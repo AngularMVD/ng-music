@@ -13,7 +13,8 @@ import {TracksPage} from './tracks-page/tracks-page';
   pipes: []
 })
 @RouteConfig([
-
+  {path: '/', component: AlbumsPage, name:'AlbumsPage'},
+  { path: '/:id', component: TracksPage, name: 'TracksPage' },
 ].concat(CliRouteConfig))
 
 export class MusicApp {
