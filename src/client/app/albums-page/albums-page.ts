@@ -1,4 +1,5 @@
 import {Component} from 'angular2/core';
+import {HTTP_PROVIDERS, Http} from 'angular2/http';
 
 import {AlbumCover} from '../album-cover/album-cover';
 
@@ -6,12 +7,19 @@ import {AlbumCover} from '../album-cover/album-cover';
   selector: 'albums-page',
   templateUrl: 'app/albums-page/albums-page.html',
   styleUrls: ['app/albums-page/albums-page.css'],
-  providers: [],
+  providers: [HTTP_PROVIDERS],
   directives: [AlbumCover],
   pipes: []
 })
 export class AlbumsPage {
+	albums: any = [];
 
-  constructor() {}
+  constructor(private http: Http) {
+		http
+				.get('/api/albums')
+				.subscribe(response => {
+					this.albums = response.json()['albums'];
+				})
+  }
 
 }
