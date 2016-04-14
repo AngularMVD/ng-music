@@ -9,7 +9,19 @@ import {Component} from 'angular2/core';
   pipes: []
 })
 export class AlbumCover {
+	album: any;
 
-  constructor() {}
+  constructor() {
+  	this.album = {
+			id: 1000,
+      artist: "Ramones",
+      name: "Ramones",
+      image: "http://ng-music.s3-sa-east-1.amazonaws.com/data/ramones-ramones.jpg",
+  	}
+  }
+
+  selectAlbum() {
+		alert("Album selected");
+  }
 
 }
